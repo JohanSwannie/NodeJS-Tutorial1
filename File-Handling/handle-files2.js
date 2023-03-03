@@ -22,7 +22,7 @@ const fileAsyncRead = async () => {
       path.join(__dirname, "Files", "asyncfile1b.txt"),
       path.join(__dirname, "Files", "asyncfile2.txt")
     );
-    await fsPromises.unlink(path.join(__dirname, "Files", "dummyfile.txt"));
+    await fsPromises.unlink(path.join(__dirname, "Files", "dummyfile2.txt"));
   } catch (error) {
     console.error(error);
   }
