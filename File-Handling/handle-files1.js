@@ -24,11 +24,9 @@ fs.readFile(
     if (error) {
       throw error;
     }
-    console.log(data);
+    console.log(data.toString());
   }
 );
-
-fileAsyncRead();
 
 // Write File
 
